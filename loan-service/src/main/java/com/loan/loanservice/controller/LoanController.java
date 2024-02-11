@@ -8,6 +8,10 @@ import org.springframework.web.bind.annotation.*;
 @RequestMapping("/api/v1")
 public class LoanController {
     private final LoanService loanService;
+
+
+
+
     public LoanController(LoanService loanService) {
         this.loanService = loanService;
     }
